@@ -10,8 +10,8 @@ Para criar uma atmosfera moderna, tecnológica e limpa de *fintech* espacial, ge
 
 ### Prompt Utilizado para a Imagem de Fundo:
 > *"Vertical portrait mobile wallpaper for a financial currency app. A deep dark navy blue sci-fi space background with a subtle, glowing, dotted neon blue world map. Delicate glowing light trails and curves connect different regions like a constellation, with soft glowing bokeh and particles. Ultra-clean, futuristic, modern fintech aesthetic, no text, no interface elements, 9:16 aspect ratio."*
-> 
->     *FOI USADO UMA IMAGEM ACIMA FOI A DESCRIÇÃO DA FERRAMENTE A BAIXO A TRADUÇÃO DA MESMA*
+
+  *FOI USADO UMA IMAGEM ACIMA FOI A DESCRIÇÃO DA FERRAMENTE A BAIXO A TRADUÇÃO DA MESMA*
 
  *("Papel de parede vertical para celular, ideal para um aplicativo financeiro. Um fundo espacial de ficção científica em um tom profundo de azul marinho escuro, com um mapa-múndi sutilmente iluminado e pontilhado em azul neon. Delicados rastros e curvas de luz conectam diferentes regiões como uma constelação, com um suave efeito bokeh e partículas brilhantes. Estética fintech ultralimpa, futurista e moderna, sem texto, sem elementos de interface, proporção 9:16.")*
 
