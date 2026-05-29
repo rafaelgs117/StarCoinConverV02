@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun showApiConfigDialog() {
-        MaterialAlertDialogBuilder(this, R.style.Theme_StarCoinConvert)
+        MaterialAlertDialogBuilder(this)
             .setTitle("Configurações da API")
             .setMessage(
                 "★ Status: Conectado (Online)\n" +

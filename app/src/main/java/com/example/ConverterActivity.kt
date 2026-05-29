@@ -111,8 +111,18 @@ class ConverterActivity : AppCompatActivity() {
                 return@setOnClickListener
             }
 
-            binding.tvResult.text = "%.2f %s".format(result, to)
-            binding.tvRate.text = "1 $from = %.4f $to".format(rate)
+            val formattedResult = if (result < 0.01 && result > 0) {
+                "%.6f %s".format(result, to)
+            } else {
+                "%.2f %s".format(result, to)
+            }
+            val formattedRate = if (rate < 0.01 && rate > 0) {
+                "%.6f".format(rate)
+            } else {
+                "%.4f".format(rate)
+            }
+            binding.tvResult.text = formattedResult
+            binding.tvRate.text = "1 $from = $formattedRate $to"
         }
 
         binding.btnSwap.setOnClickListener {
