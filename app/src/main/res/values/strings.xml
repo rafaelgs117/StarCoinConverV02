@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Star Coin Convert</string>
+    <string name="app_subtitle">Conversão de Moedas Inteligente</string>
+    <string name="app_description">Consulte taxas de câmbio reais atualizadas automaticamente a cada hora, com conversor dinâmico de 15 moedas globais.</string>
+    <string name="features_title">Suporte a 15 Principais Moedas</string>
+    <string name="features_description">Conversões robustas abrangendo USD, BRL, EUR, GBP, ARS, JPY, CAD, CHF, AUD, CLP, MXN, UYU, CNY, INR e BTC.</string>
+    <string name="api_settings">⚙ Mostrar Configurações de API</string>
+    <string name="btn_start">Ir para Conversor</string>
+    <string name="user_credit">Rafael Silva • rafaelsilva543@hotmail.com</string>
+</resources>

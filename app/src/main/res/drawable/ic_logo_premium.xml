@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+
+    <!-- Premium Rounded App Icon Container with Deep Metallic Radial Gradient -->
+    <path
+        android:pathData="M 24,8 L 96,8 A 16,16 0 0 1 112,24 L 112,96 A 16,16 0 0 1 96,112 L 24,112 A 16,16 0 0 1 8,96 L 8,24 A 16,16 0 0 1 24,8 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="60"
+                android:startY="8"
+                android:endX="60"
+                android:endY="112"
+                android:type="linear">
+                <item
+                    android:color="#1B3153"
+                    android:offset="0.0" />
+                <item
+                    android:color="#061226"
+                    android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Top Glossy Highlight Curve (Gives the icon a polished glass/3D dome feel) -->
+    <path
+        android:pathData="M 24,9 L 96,9 A 15,15 0 0 1 111,24 C 111,24 85,14 60,14 C 35,14 9,24 9,24 A 15,15 0 0 1 24,9 Z"
+        android:fillColor="#15FFFFFF" />
+
+    <!-- Sleek Golden Highlight Border (Outer border neon accent) -->
+    <path
+        android:strokeWidth="1.5"
+        android:pathData="M 24,8 L 96,8 A 16,16 0 0 1 112,24 L 112,96 A 16,16 0 0 1 96,112 L 24,112 A 16,16 0 0 1 8,96 L 8,24 A 16,16 0 0 1 24,8 Z">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="20"
+                android:startY="8"
+                android:endX="100"
+                android:endY="112"
+                android:type="linear">
+                <item
+                    android:color="#40FFE875"
+                    android:offset="0.0" />
+                <item
+                    android:color="#15061226"
+                    android:offset="0.5" />
+                <item
+                    android:color="#40F5A623"
+                    android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Sparkle Star top-right (glowing) -->
+    <path
+        android:fillColor="#FFE662"
+        android:pathData="M 96,18 C 96,24 93.5,26.5 87.5,26.5 C 93.5,26.5 96,29 96,35 C 96,29 98.5,26.5 104.5,26.5 C 98.5,26.5 96,24 96,18 Z" />
+
+    <!-- Sparkle Star bottom-left (glowing) -->
+    <path
+        android:fillColor="#F5A623"
+        android:pathData="M 26,88 C 26,93 24,95 19,95 C 24,95 26,97 26,102 C 26,97 28,95 33,95 C 28,95 26,93 26,88 Z" />
+
+    <!-- Sparkle Star middle-left (small, subtle) -->
+    <path
+        android:fillColor="#FFE662"
+        android:pathData="M 18,44 C 18,46.5 17,47.5 14.5,47.5 C 17,47.5 18,48.5 18,51 C 18,48.5 19,47.5 21.5,47.5 C 19,47.5 18,46.5 18,44 Z" />
+
+    <!-- 3D Chiseled/Beveled Golden Central Star Structure - Built with 10 facet paths -->
+    <!-- Facet 1: Top-Right (Light Gold Gradient) -->
+    <path
+        android:pathData="M 60,30 L 69,52 L 60,59 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="60" android:startY="30" android:endX="69" android:endY="59" android:type="linear">
+                <item android:color="#FFE875" android:offset="0.0" />
+                <item android:color="#F5A623" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Facet 2: Right-Upper-Upper (Dark Gold Gradient) -->
+    <path
+        android:pathData="M 69,52 L 91,52 L 60,59 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="69" android:startY="52" android:endX="60" android:endY="59" android:type="linear">
+                <item android:color="#F5A623" android:offset="0.0" />
+                <item android:color="#D48C16" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Facet 3: Right-Upper-Lower (Light Gold Gradient) -->
+    <path
+        android:pathData="M 91,52 L 73,65 L 60,59 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="91" android:startY="52" android:endX="73" android:endY="65" android:type="linear">
+                <item android:color="#FFE875" android:offset="0.0" />
+                <item android:color="#F5A623" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Facet 4: Right-Lower-Upper (Dark Gold Gradient) -->
+    <path
+        android:pathData="M 73,65 L 80,87 L 60,59 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="73" android:startY="65" android:endX="60" android:endY="87" android:type="linear">
+                <item android:color="#F5A623" android:offset="0.0" />
+                <item android:color="#D48C16" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Facet 5: Right-Lower-Lower (Light Gold Gradient) -->
+    <path
+        android:pathData="M 80,87 L 60,74 L 60,59 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="80" android:startY="87" android:endX="60" android:endY="74" android:type="linear">
+                <item android:color="#FFE875" android:offset="0.0" />
+                <item android:color="#F5A623" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Facet 6: Left-Lower-Lower (Dark Gold Gradient) -->
+    <path
+        android:pathData="M 60,74 L 40,87 L 60,59 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="60" android:startY="74" android:endX="40" android:endY="87" android:type="linear">
+                <item android:color="#F5A623" android:offset="0.0" />
+                <item android:color="#D48C16" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Facet 7: Left-Lower-Upper (Light Gold Gradient) -->
+    <path
+        android:pathData="M 40,87 L 47,65 L 60,59 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="40" android:startY="87" android:endX="47" android:endY="65" android:type="linear">
+                <item android:color="#FFE875" android:offset="0.0" />
+                <item android:color="#F5A623" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Facet 8: Left-Upper-Lower (Dark Gold Gradient) -->
+    <path
+        android:pathData="M 47,65 L 29,52 L 60,59 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="47" android:startY="65" android:endX="29" android:endY="52" android:type="linear">
+                <item android:color="#F5A623" android:offset="0.0" />
+                <item android:color="#D48C16" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Facet 9: Left-Upper-Upper (Light Gold Gradient) -->
+    <path
+        android:pathData="M 29,52 L 51,52 L 60,59 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="29" android:startY="52" android:endX="51" android:endY="52" android:type="linear">
+                <item android:color="#FFE875" android:offset="0.0" />
+                <item android:color="#F5A623" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Facet 10: Top-Left (Dark Gold Gradient) -->
+    <path
+        android:pathData="M 51,52 L 60,30 L 60,59 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="51" android:startY="52" android:endX="60" android:endY="30" android:type="linear">
+                <item android:color="#F5A623" android:offset="0.0" />
+                <item android:color="#D48C16" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Wrapped 3D Orbital ring wrapping in front of the star (with tapers and a warm metallic gradient) -->
+    <path
+        android:pathData="M 18,74 C 28,88 78,88 100,64 C 111,52 104,42 90,42 C 78,42 86,48 92,52 C 100,58 102,64 92,72 C 74,86 34,86 24,74 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="18"
+                android:startY="74"
+                android:endX="100"
+                android:endY="42"
+                android:type="linear">
+                <item
+                    android:color="#FFE875"
+                    android:offset="0.0" />
+                <item
+                    android:color="#F5A623"
+                    android:offset="0.6" />
+                <item
+                    android:color="#D48C16"
+                    android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Small decorative tiny star on orbital tip -->
+    <path
+        android:fillColor="#FFE662"
+        android:pathData="M 108,68 C 108,69.5 107.2,70.1 105.7,70.1 C 107.2,70.1 108,70.7 108,72.2 C 108,70.7 108.8,70.1 110.3,70.1 C 108.8,70.1 108,69.5 108,68 Z" />
+
+</vector>

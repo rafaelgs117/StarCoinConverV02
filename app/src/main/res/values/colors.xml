@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dark deep midnight navy theme matching the user's screens -->
+    <color name="bg_dark">#050E1F</color>
+    <color name="bg_dark_overlay">#EE050E1F</color>
+    <color name="bg_card">#0B1E36</color>
+    <color name="gold">#F5A623</color>
+    <color name="gold_pressed">#D48C16</color>
+    <color name="white">#FFFFFF</color>
+    <color name="muted">#8B9BB4</color>
+    <color name="border_blue">#1F4068</color>
+    
+    <!-- Material theme mappings -->
+    <color name="colorPrimary">#F5A623</color>
+    <color name="colorPrimaryVariant">#0B1E36</color>
+    <color name="colorOnPrimary">#050E1F</color>
+    <color name="colorSecondary">#1F4068</color>
+    <color name="colorOnSecondary">#FFFFFF</color>
+</resources>
